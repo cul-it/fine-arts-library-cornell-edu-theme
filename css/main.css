@@ -1,0 +1,288 @@
+/****************************************
+ * Cornell University
+ * Web Banner CSS Rules
+ * This Custom Banner Configuration can be found at 
+ ****************************************/
+ 
+/*
+	The purpose of this stylesheet is to control the layout and formatting
+	of pages throughout the website. Place rules that apply to all pages and 
+	all web browsers in this stylesheet.
+*/
+ 
+/****************************************
+ * General Formatting
+ ****************************************/
+/* 
+	The following rule sets up default global properties, such as
+	font family and color, page margin and padding, and the 
+	background color of the footer.
+	
+	Note the font-size declaration. Its purpose is to reset the 
+	default font size to 10px instead of 16px, allowing font sizes to 
+	be specified in ems throughout the stylesheet (1.0em = 10px, 
+	1.3em = 13px, etc.). It is important to specify font sizes in ems 
+	instead of pixels, because IE/Win does not allow text to be resized
+	by the user if it is specified in pixels.	
+*/ 
+body {
+ 	margin: 0;
+	padding: 0;
+ 	}
+ 
+
+
+/****************************************
+ * Cornell Identity
+ ****************************************/
+/* 
+	The following set of rules controls the appearance of the topmost 
+	banner on the page, including height, background color, and text color.
+	The Cornell identity banner should appear on every page of the site.
+	
+	The version of the logo that appears in the XHTML code is hidden from 
+	browsers that can read this stylesheet, and it is replaced by a version
+	of the logo that corresponds to the background color of the banner. 
+	This logo is placed in the background of two elements below (rather than
+	one) to prevent flickering when moused over by IE/Win users who have 
+	disabled the browser cache.
+	
+	The "Search Cornell" link is aligned with the right edge of the page.
+*/
+
+#cu-identity-wrap {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 63.125%;		/* translate 1.0em to 10px, 1.5em to 15px, etc. */
+	color: #222;
+	height: 75px;
+	background: #4D4E53;
+	/*
+	Comment out the following line to remove the Ezra Cornell background image from the header.
+	Change 1.jpg to any number up to 8.jpg to use other header background images.
+	*/
+
+	background:  #4D4E53 
+	url() no-repeat top center;
+
+	}
+	
+#cu-identity-content {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	height: 75px;
+	background: url(../images/layout/LIBgray.gif) no-repeat ;
+	}
+	
+#cu-identity-content a {
+	position: absolute;
+	display: block;
+	border: none;
+	/* hide text link */
+	text-indent: -1000em;
+	text-decoration: none;
+	}
+	
+#cu-identity-content img {
+	display: none;
+	}
+
+#insignia-link {
+	width: 80px;
+	height: 88px;
+	}
+
+#unit-signature-links a {
+	left: 80px;
+	width: 185px;
+	}
+
+#cornell-link {
+	height: 35px;
+	}
+	
+#unit-link {
+	top: 35px;
+	height: 20px;
+	}
+	
+#unit-link2 {
+	top: 55px;
+	height: 33px;
+	}
+
+/*	
+	Search Form
+	-------------------------
+	The following rules control the appearance of the search form interface. 
+	The form is displayed in the Cornell banner, and it is aligned with the 
+	right edge of the page. The search form should appear on every page 
+	of a site. 
+*/
+
+#search-form {
+	position: absolute;
+	top: 18px;
+	right: 0;
+	}
+	
+#search-form form {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	}
+	
+#search-input label {
+	color: #FFFFFF;
+	}
+
+#search-form.banner-45 #search-input label {
+	position: absolute;
+	top: -1000em;
+	left: -1000em;
+	}
+
+#search-form label {
+	color: #FFFFFF;
+	}
+	
+#search-form-query {
+	padding: 3px;
+	width: 145px;
+	border: none;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 1.1em;
+	color: #ffffff;
+	background: #990f0f url(../images/layout/headerbgsearch.gif) no-repeat top left;
+	vertical-align: middle;
+	}
+	
+#search-form-submit {
+	padding: 0px 2px 3px 2px;;
+	border-top: 1px solid #bf6060;
+	border-left: 1px solid #bf6060;
+	border-right: 1px solid #400606;
+	border-bottom: 1px solid #400606;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 1.0em;
+	color: #ffffff;
+	background: #900;
+	vertical-align: middle;
+	}
+	
+#search-filters {
+	margin: 5px 0 0 0;
+	}
+
+#search-filters input {
+	vertical-align: middle;
+	margin: 0;
+	}
+
+#search-filters label {
+	vertical-align: middle;
+	margin: 0 10px 0 0;
+	}
+	
+#search-filters a {
+	position: relative;
+	display: inline;
+	color: #ffffff; 
+}
+
+#search-form a {
+	border-bottom: 1px solid #e5cfcf;
+	color:#FFFFFF;
+	}
+
+#search-form a:hover {
+	border-bottom: 1px solid #ffffff;
+}
+
+/*	
+	Search Navigation 
+	-------------------------
+	The following rules control the appearance of the search navigation 
+	links. These links are displayed horizontally in the Cornell banner, 
+	and they are aligned with the right edge of the page. The baseline
+	of the links is aligned with the baseline of the unit name in the unit
+	signature. Search navigation links should appear on every page of a
+	site. 
+*/
+
+#search-navigation {
+	position: absolute;
+	top: 37px;
+	right: 0;
+	}
+	
+#search-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.1em;
+	}
+	
+#search-navigation li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: none;
+	}
+		
+#search-navigation a {
+	display: inline;
+	float: left;
+	padding: 5px 15px;
+	color: #ffffff;
+	text-indent: 0;
+	position: relative;
+	}
+	
+#search-navigation a:hover {
+	background: #990f26;
+	}
+	
+/****************************************
+ * Miscellaneous
+ ****************************************/
+
+/* 
+	Hide "skip to content" link from general users. 
+	Do not use display: none, as that will also hide it from some screen readers.
+*/
+#skipnav {
+	position: absolute;
+	top: -1000em;
+	left: -1000em;
+	}
+	
+/* 
+	To display the "skip to content" link to general users, uncomment	
+	the following rules (this usually is not necessary).
+#cu-identity-wrap {
+	top: 25px;
+	}
+#skipnav {
+	position: static;
+	height: 25px;
+	line-height: 25px;
+	background: #fff;
+	}
+#skipnav a {
+	display: block;
+	margin: 0 auto;
+	width: 740px;
+	border: none;
+	}
+*/
+	
+/* 
+	Hide horizontal rules (hr) that separate the banner from the site.
+	The rules are semantic separations of content, and they are useful for 
+	browsers that cannot utilize the stylesheet.
+*/	
+hr.banner-separator {
+	display: none;
+	}
+ 

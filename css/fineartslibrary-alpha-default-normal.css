@@ -1,0 +1,33 @@
+h1 {font-size:95px;
+line-height:85%;
+padding-bottom: 10px;
+margin:10px 0px; 
+font-weight: normal;
+}
+
+#region-sidebar-second {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: relative;
+    top: 10px;
+}
+
+
+.sf-menu a {
+    border-right: 0 solid #D5DFEF;
+    font-size: 18px;
+    padding: 0.5em 2em;
+}
+
+
+div#block-superfish-1 {display:block}
+div#block-views-home-page-photo-block {display:block;}
+article#node-page-2 {display:block;}
+
+
+#region-sidebar-second {
+    background-color: rgba(255, 255, 255, 0.9);
+    clear: none;
+    position: relative;
+    top: 10px;
+   ;
+}

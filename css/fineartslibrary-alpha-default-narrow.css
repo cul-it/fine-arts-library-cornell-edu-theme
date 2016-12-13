@@ -1,0 +1,28 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+ 
+ 
+ h1 {font-size:48px;
+line-height:85%;}
+
+
+.sf-menu a {
+    border-right: 0 solid #D5DFEF;
+    font-size: 16px ;
+    padding: 0.5em 1em;
+}
+
+div#block-superfish-1 {display:block}
+div#block-views-home-page-photo-block {display:block; clear: both;}
+.flex-nav-container {height:auto !important; width:auto !important; padding:0px !important; margin:0px !important;}
+article#node-page-2 {display:block;}
+
+.container-12 .grid-9 {
+    width: 100%;
+}
+
+.container-12 .grid-3 {
+    width: 100%;
+}

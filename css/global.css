@@ -1,0 +1,202 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+
+
+
+/*body.front {background:#e8e8e9 url(/sites/all/themes/fineartslibrary/images/layout/photobgtest10.png) no-repeat; background-size: cover;}*/
+/*
+body {background:#e8e8e9 url(/sites/all/themes/fineartslibrary/images/layout/background.png) repeat;}*/
+div#block-superfish-1 {display:none;}
+div#block-views-home-page-photo-block {display:none;}
+article#node-page-2 {display:none;}
+
+
+
+
+
+body {background-color:#fff;}
+
+h1 > a:link, h1 > a:visited {color:#000}
+h1> a:hover {background-color: #fff !important; color:#008080 !important}
+.maincontent {color:#000; padding:0px; position:relative; top:-0px; left:0px;} 
+
+h1 {font-size:48px;
+line-height:85%;
+padding-bottom: 10px;
+margin:10px 0px; 
+font-weight: normal;
+}
+
+div#zone-content { padding:10px; position:relative; top:-10px;}
+
+#region-sidebar-second .block {background-color:#Fff; margin-bottom:20px; border: 1px solid #4D4E53; padding: 2px;  }
+#region-sidebar-second  h2.block-title {color:#ffffff; font-weight: 100; width: 100%; margin:0px; padding:0px 10px; background-color:#4D4E53; position: relative; left:-10px; top:-10px;}
+#region-sidebar-second  p {margin-bottom:0px; padding-left: 0px}
+#region-sidebar-second {background-color:#fff;  }
+.views-field-field-photographer {right:5%;position: absolute;bottom:1%; color:#fff; 
+    overflow: none;z-index: 1}
+
+.views-field-field-photographer div.field-content {font-style: italic !important;}
+p.flex-caption {display:none; font-size:1.25em;}
+.flex-nav-container:hover p.flex-caption {display:block; text-align:right; font-style: italic; margin:0px !important; padding:0px !important;
+}
+/* brute overriding of the module's css, but there's probably a better way to do this */
+div.flexslider {
+margin: 0 0 0px;
+background: #fff;
+border: 0px solid #fff;
+position: relative;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+-o-border-radius: 0px;
+border-radius: 0px;
+box-shadow: 0 0px 0px rgba(0,0,0,.2);
+-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.2);
+-moz-box-shadow: 0 0px 0px rgba(0,0,0,.2);
+-o-box-shadow: 0 0px 0px rgba(0,0,0,.2);
+}
+
+
+
+#section-footer {background-color:#a2a2a2}
+
+#zone-menu-wrapper {background-color:#4D4E53; margin-bottom:10px;}
+
+
+.sf-menu li, .sf-menu li li, .sf-menu li li li, .sf-menu.sf-navbar {
+    background: none repeat scroll 0 0 #4D4E53;
+}
+
+#article.node-page-2 {z-index: 1000}
+
+
+.sf-menu {
+    float: left;
+    margin-bottom: 0em;
+    padding: 0;
+
+   /* position:relative;
+    left:-10px;*/
+}
+
+.sf-menu a {
+    border-right: 0px solid #D5DFEF;
+    padding: .5em 2em; font-size: 18px;
+
+}
+
+
+.sf-menu a:hover {
+    color: #ffffff;
+}
+
+
+.sf-menu li:hover, .sf-menu.sf-style-space li.sfHover, .sf-menu.sf-style-space li.active a, .sf-menu.sf-style-space a:focus, .sf-menu.sf-style-space a:hover, .sf-menu.sf-style-space a:active, .sf-menu.sf-style-space.sf-navbar li li {
+    background: none repeat scroll 0 0 #008080;
+    color: #FFFFFF;
+}
+
+a:hover.sf-depth-1 {background-color: #727272}
+a:active.sf-depth-1 {background-color: #727272}
+a:focus.sf-depth-1 {background-color: #727272}
+
+/*color of the top level menu item background*/
+.sf-menu li.sf-depth-1:hover, .sf-menu.sf-style-space li.sfHover, .sf-menu.sf-style-space li.active a, .sf-menu.sf-style-space a:focus, .sf-menu.sf-style-space a.sf-depth-1:hover, .sf-menu.sf-style-space a.sf-depth-1:active, .sf-menu.sf-style-space.sf-navbar li.sf-depth-1 li.sf-depth-1 {
+    background-color:#008080}
+
+.sf-item-1 .sf-depth-2 {border-top: 1px solid #cccccc;}
+
+
+li.dhtml-menu a {color:#E8E8E9}
+
+
+
+.sf-menu a:link, .sf-menu a:visited {color: #ffffff; text-decoration:none; 
+
+}
+
+
+div#block-superfish-1 {border-left: 0px solid #E8E8E9;  }
+
+
+h1,h2,h3,h4 {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+.node h2, .node h3, .node h4 {/*padding: 5px 10px;*/} 
+ 
+
+
+h1#page-title {font-size:36px;
+line-height:85%;
+margin:10px 0px;
+ /*padding-left:10px*/;
+font-weight: 300;}
+
+
+p,div, .maincontent li {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+p{padding:0px 0px}
+
+
+.view-databases {font-size: 1.25em !important;
+    line-height: 1.755em;
+    padding: 5px 0;}
+
+.node-page p, .node-page li {font-size: 1.25em;
+    line-height: 1.75em;
+    padding: 1px 0;}
+
+div.region-sidebar-second-inner {font-size: 1.15em}
+
+/*.node-page li {font-size:18px; margin:0px 15px;}*/
+
+a:link {color:#008080; text-decoration:none;}
+a:visited {color:#008080; text-decoration:none;}
+#page a:hover {background-color:#cde518; color:#fff;}
+
+#zone-footer {color:#E8E8E9}
+
+h1 {letter-spacing:normal}
+
+#section-header {background-color:#fff;  padding:10px 0px 0px 0px;
+background-image:none;}
+
+/*
+#section-header h1 {position: relative; left:-10px;}
+*/
+
+div#block-aggregator-feed-1 .item-list ul li {
+    margin: 0 0 0.25em 0px;
+    padding: 0;
+}
+
+h2.block-title {
+    font-size: 18px;
+    margin: 3px 0px;
+}
+
+div#block-views-new-books-block a {padding-left: 0px;}
+
+div#block-views-databases-block a {padding-left: 0px;}
+
+div#worldcat-search {padding-left:0px; margin-bottom:5px;}
+
+#course-help-form label {display: none;}
+
+#region-sidebar-second .block {padding:10px;}
+
+div#block-block-6 a {color:#E8E8E9;}
+
+/* .container-12 .grid-9 {
+    top: -10px;} */
+
+   /* body.front div#block-system-main {min-height: 300px;} */
+
+.views_slideshow_singleframe_slide.views_slideshow_slide {
+  width: 100% !important;
+}
+
+
+
+div.form-item-searchBox {display:inline;}
+
